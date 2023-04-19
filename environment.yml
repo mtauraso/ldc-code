@@ -1,0 +1,33 @@
+name: ldc
+channels:
+    - conda-forge
+    - defaults
+dependencies:
+    - gcc_linux-64 
+    - gxx_linux-64
+    - wget
+    - lapack=3.6.1 
+    - hdf5 
+    - tqdm 
+    - jupyter 
+    - ipython 
+    - requests
+    - python=3.7.*
+    - gsl
+    - fftw
+    - pip
+    - scipy=1.6.2
+    - cython=0.29.22
+    - h5py=3.2.1 
+    - matplotlib=3.4.1
+    - pyyaml=5.4.1
+    - astropy=4.2
+    - xarray=0.15.0
+    - h5netcdf
+    - pip:
+        - numpy==1.19.3
+        - lisaconstants
+        - tables
+        - psd==1.5.2
+        - gdown
+ 
